@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="./src/style.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="./src/img/logo_rs_text.svg" alt="">
+					<p>Artem Puzik</p>
+				</section>
+				<section>
+					<img src="./src/img/React.jpeg" alt="">
+					<h1>React</h1>
+					<p>A JavaScript library for building user interfaces</p>
+				</section>
+				<section>
+					<img src="./src/img/126948832.webp" alt="">
+					<h5>facebook</h5>
+				</section>
+				<section>
+					<h4>Developed on:</p>
+					<div>
+						<ul>
+							<li>Instagram</li>
+							<li>Netflix</li>
+							<li>WhatsApp</li>
+							<li>New York Times</li>
+							<li>Dropbox</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<img style="height: 400px;" src="./src/img/slide2.png" alt="">
+					<h5>React: declarative</h5>
+					<h5>React: component-based</h5>
+					<h5>React: open-source project</h5>
+				</section>
+				<section>
+					<img src="https://www.cashapona.com/wp-content/uploads/2019/04/img2.jpg" alt="">
+					<h5>Real DOM: slow</h5>
+					<h5>Virtual DOM: much faster </h5>
+				</section>
+				<section>
+					<h4>how to get started</h4>
+					<div>
+						<ul>
+							<li> check Node.js (node -v)</li>
+							<li> check npm package (npm -v)</li>
+							<p> --------------------------------------</p>
+							<li> npx create-react-app my-app</li>
+							<li> npx create-react-app my-app --template typescript</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h4>React used</h4>
+					<div>
+						<ul>
+							<li> JSX</li>
+							<li> TSX</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<img src="./src/img/app.png" alt="">
+				</section>
+				<section>
+					<img style="height: 600px;" src="https://miro.medium.com/max/1400/1*bsS8ETUQqgBpAoT2D6tjmw.png" alt="">
+				</section>
+				<section>
+					<img src="./src/img/React.jpeg" alt="">
+					<h1>END</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
